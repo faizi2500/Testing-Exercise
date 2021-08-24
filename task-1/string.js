@@ -1,4 +1,11 @@
 const string = (a)=> {
-  return a.length;
+
+  const characters = a.length
+  if(characters < 1 || characters > 10){
+    return 'Invalid string size';
+  }
+  else{
+    return characters;
+  }
 };
 module.exports = string;

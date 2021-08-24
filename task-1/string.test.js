@@ -5,3 +5,7 @@ test('Length of String is ', () => {
   const size = name.length; 
   expect(size).toEqual(5);
 });
+
+test('Invalid string length', ()=>{
+  expect(string('Ahmed Anjum')).toBe('Invalid string size');
+})
