@@ -8,4 +8,4 @@ test('Length of String is ', () => {
 
 test('Invalid string length', ()=>{
   expect(string('Ahmed Anjum')).toBe('Invalid string size');
-})
+});
